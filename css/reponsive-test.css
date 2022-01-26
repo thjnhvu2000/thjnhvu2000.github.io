@@ -1,0 +1,161 @@
+/* mobile */
+@media (max-width: 739px) {
+
+    #header {
+        overflow: hidden;
+    } 
+
+    #navigation__list > li:first-child {
+        display: inline-block;
+    }
+
+    .mobile-search-icon {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        color: #fff;
+        padding: 12px 15px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .mobile-search-icon:hover {
+        background-color: #ccc;
+        color: #000;
+    }
+    
+    #navigation__list > li {
+        display: block;
+    }
+
+    .navigation__serach-icon {
+        display: none;
+    }
+
+    .navigation__sub-nav a {
+        padding-left: 10px;
+        line-height: 45px;
+        color: #fff;
+    }
+
+    .navigation__sub-nav li:hover a {
+        color: #000;
+    }
+    
+    #navigation__list li .navigation__sub-nav  {
+        position: initial;
+        background-color: #333;
+        
+    }
+
+    .content__member-list {
+        display: block;
+    }
+
+    .content__slogan {
+        width: unset;
+        margin: unset;
+    }
+
+    .content__member-img {
+        width: 75%;
+        height: 200px
+    }
+
+    .content__member-name {
+        margin-top: 20px;
+    }
+
+    .tour__location {
+        display: block;
+        padding-bottom: unset;
+    }
+
+    .tour__location-list {
+        padding-bottom: 16px;
+        width: 100%;
+    }
+
+    .tour__location-list-img {
+        height: 275px;
+    }
+
+    .tour__location-btn {
+        width: 100%;
+    }
+
+    .contact__information {
+        width: 100%;
+        line-height: 2;
+        /* text-align: initial; */  
+    }
+
+    .contact__input {
+        display: inline-block;
+        text-align: unset;
+    }
+
+    .contact__input-sub {
+        margin-top: 32px;
+    }
+    
+    .contact__input-form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .contact__container {
+        width: unset;
+        display: block;
+        text-align: center;
+        margin: 0 16px;
+        
+    }
+
+    .contact__input-message {
+        padding: 15px;
+    }
+
+    .contact__input-button {
+        width: 100%;
+        padding: 15px 16px
+    }
+
+    .map__app-list > a {
+        margin: 0 8px;
+    }
+
+    .footer__map-text{
+        padding: 12px 0;
+    }
+}
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .content__slogan {
+        margin: 0 0;
+        max-width: 100%;
+    }
+
+    .contact__information {
+        width: 47%;
+        line-height: 1.5;
+    }
+    .mobile-search-icon {
+        display: none;
+    }
+}
+
+/* tablet and mobile */
+@media (max-width: 1023px) {
+  
+}
+
+/* PC  */
+@media (min-width: 1024px) {
+    .mobile-search-icon {
+        display: none;
+    }
+}
